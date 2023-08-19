@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Details</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h2>Job Details:</h2>
+
+	<form action="" method="post">
+		<fieldset>
+			<table>
+				<tr>
+					<td><label for="title">Job Title:</label></td>
+					<td><input type="text" id="title" name="job"></td>
+				</tr>
+					<tr>
+						<td><label for="des">Description:</label></td>
+							<td><textarea class="des"id="des" name="des" cols="20" rows="4"></textarea>
+						<p>Brief Description should be atmost 500 characters</p></td>
+					</tr>
+						<tr>
+							<td><label for="name">Company Name:</label></td>
+							<td><input type="text" id="name" name="name"></td>
+						</tr>
+							<tr>
+								<td><label for="contact">Contact Number:</label></td>
+								<td><input type="tel" id="contact" name="number"></td>
+							</tr>
+					
+								<tr>
+									<td><label for="person">Contact Person:</label></td>
+									<td><input type="text" id="person" name="contact"></td>
+								</tr>
+					
+									<tr>
+										<td><label for="mail">Email:</label></td>
+										<td><input type="email" id="mail" name="mail"></td>
+									</tr>
+					
+										<tr>
+											<td><label>Work Status:</label></td>
+											<td><input type="checkbox" id="full_time" name="full_time" value="Full Time">
+											<label for="full_time">Full Time</label>
+											<input type="checkbox" id="part_time" name="part" value="Part Time">
+											<label for="part_time">Part Time</label>
+											<input type="checkbox" id="per_dim" name="per" value="Per Dim">
+											<label for="per_dim">Per Dim</label>
+											<input type="checkbox" id="other" name="others" value="Others">
+											<label for="other">Others</label></td>
+										</tr>
+											<tr>
+												<td><label for="salary">Salary:</label></td>
+												<td><input type="text" id="salary" name="salary">
+													<select>
+														<option value="Us Doller">Us Doller</option>
+													</select>
+														<select>
+															<option value="Yearly">Yearly</option>
+														</select></td>
+											</tr>
+												<tr>
+													<td><label for="experience">Experience(Years):</label></td>
+													<td><input type="number" id ="experience" name="exp"></td>
+												</tr>
+						
+													<tr>
+														<td><label for="location">Location:</label></td>
+														<td><input type="text" id ="location" name="location"></td>
+													</tr>
+
+														<tr>
+															<td><label for="qual">Qualification:</label></td>
+															<td><select size="4" multiple>
+																	<option value="any">Any</option>
+																	<option value="high school">High School</option>
+																	<option value="associate">Associate</option>
+																	<option value="pre bachelors">Pre Bachelors</option>
+																</select>
+																<input type="submit" value="Add>>">
+																<input type="submit" value="<<Remove">
+																<textarea class="any" name="any" cols="6" rows="5">Any</textarea>
+															</td>
+														</tr>
+															<tr>
+																<td><input type="submit" value="Submit"></td>
+																<td><input type="reset" value="Reset"></td>
+															</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
